@@ -12,7 +12,7 @@ fun main() {
     println(post.publisherName)
 
     println(post.likeCount)
-    post.publisherName = "mohamed"
+    post.publisherName = "ahmed ali"
 
 
     println(post.publisherName)
