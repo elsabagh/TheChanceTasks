@@ -4,7 +4,7 @@ fun main() {
     val cart = Cart()
 
     val mainDish = Meal(
-        name = "fish", price = 1000
+        name = "fish", price = 15000
     )
     val salad = Meal(
         name = "salad",
