@@ -6,4 +6,6 @@ interface CategoryOperations {
     fun deleteCategory(name: String): Boolean
     fun checkExists(name: String): Boolean
     fun displayCategories(): String
+    fun displayTransactions(): String
+
 }

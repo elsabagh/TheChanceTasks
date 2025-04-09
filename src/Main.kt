@@ -76,6 +76,11 @@ fun main() {
             }
 
             6 -> {
+                // Display Transactions History
+                println(categoryManager.displayTransactions())
+            }
+
+            7 -> {
                 // Exit the program
                 println("Exiting program. Goodbye!")
                 return
@@ -92,5 +97,6 @@ enum class Operation(val description: String) {
     DELETE_CATEGORY("Delete Category"),
     CHECK_EXISTS("Check if Category exists"),
     DISPLAY_CATEGORIES("Display Categories"),
+    DISPLAY_TRANSACTIONS("Display Transactions History"),
     EXIT("Exit");
 }
